@@ -8,10 +8,27 @@ body {
   font-family: Besley, serif;
 }
 
+.right-nav {
+    display: flex;
+    justify-content: right;
+    gap: 16px;
+    flex: 1;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .profile-image {
@@ -45,4 +62,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
+
